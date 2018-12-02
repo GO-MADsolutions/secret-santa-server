@@ -1,0 +1,22 @@
+{
+  "name": "secret-santa-api",
+  "version": "1.0.0",
+  "description": "api for secret santa",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "goutham palani",
+  "license": "ISC",
+  "dependencies": {
+    "@types/hapi": "^17.8.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "hapi": "^17.8.1",
+    "nodemon": "^1.18.7"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  }
+}
