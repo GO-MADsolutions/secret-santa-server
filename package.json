@@ -4,7 +4,7 @@
   "description": "api for secret santa",
   "main": "server.js",
   "scripts": {
-    "start": "node build/server.js",
+    "start": "node app",
     "build": "gulp compile",
     "prebuild": "npm install",
     "build:dev": "nodemon start build/src/server.js --watch",
