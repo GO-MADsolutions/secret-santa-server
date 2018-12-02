@@ -2,7 +2,7 @@
 import * as hapi from 'hapi';
 let server =  new hapi.Server({
     host: 'localhost',
-    port: 1233
+    port: process.env.PORT
 });
 
 server.route({
