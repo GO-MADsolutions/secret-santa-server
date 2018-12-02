@@ -4,15 +4,11 @@
   "description": "api for secret santa",
   "main": "server.js",
   "scripts": {
-    "start": "npm run build && npm run build:live && node app",
+    "start": "node build/server.js",
     "build": "gulp build",
-    "test": "gulp test",
     "prebuild": "npm install",
     "build:dev": "nodemon start build/src/server.js --watch",
-    "build:live": "nodemon build/src/server.js",
-    "tsc": "tsc",
-    "tsc:watch": "tsc -w",
-    "postinstall": "gulp default"
+    "build:live": "nodemon build/src/server.js"
   },
   "author": "goutham palani",
   "license": "ISC",
