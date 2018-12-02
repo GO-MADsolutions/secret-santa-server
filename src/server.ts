@@ -1,7 +1,6 @@
 'use strict';
 import * as hapi from 'hapi';
 let server =  new hapi.Server({
-    host: 'localhost',
     port: process.env.PORT
 });
 
