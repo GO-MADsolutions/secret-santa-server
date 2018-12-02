@@ -21,7 +21,7 @@ async function start () {
         process.exit(1);
     }
 
-    console.log('Server running at:', server.info.uri);
+    console.log('gulp default addded Server running at:', server.info.uri);
 }
 
 start();
